@@ -64,14 +64,14 @@ newCar = [
 
 for i in range(len(newCar)):
     2020 - car.get_year(self=newCar[i])
-    print(print(newCar[i]), "возраст машины: ", 2020 - car.get_year(self=newCar[i]))
+    print(newCar[i], "возраст машины: ", 2020 - car.get_year(self=newCar[i]))
 
 print("Машины старше 15 лет:")
 for i in range(len(newCar)):
     if car.get_year(self=newCar[i]) < 2005:
-        print(print(newCar[i]))
+        print(newCar[i])
 
 print("Машины марки Nissan:")
 for i in range(len(newCar)):
     if car.get_marka(self=newCar[i]) == "Nissan":
-        print(print(newCar[i]))
+        print(newCar[i])
