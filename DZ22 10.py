@@ -39,13 +39,6 @@ class car:
     def get_num(self):
         return self.__num
 
-    def add_car(self, newCar):
-        if newCar.year() < 2005:
-            self.__cars.append(newCar)
-            print("Машины которые в эксплуатации более 15 лет:")
-        else:
-            print("nope")
-
     def __str__(self):
         return "ID: " + str(self.__id) + " Марка: " + str(self.__marka) + " Модель: " + str(
             self.__model) + " Год выпуска: " + str(self.__year) + " Цвет: " + str(self.__color) + " Цена: " + str(
